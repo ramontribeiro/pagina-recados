@@ -1,0 +1,82 @@
+body, button, input{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  text-transform: uppercase;
+  /* text-align: center; */
+}
+
+.input-descricao{
+  padding: 10px;
+  width: 20%;
+}
+
+.input-detalhamento{
+  padding: 10px;
+  width: 50%;
+}
+
+input.btn-salvar {
+  margin: 10px;
+  background-color: #E16E0E;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer ;
+}
+
+button.btn-editar {
+  margin: 10px;
+  background-color: #372224;
+}
+
+button.btn-apagar {
+  background-color: red;
+}
+
+.btn-salvar:hover{
+  transform: scale(1.3);
+} 
+
+button:hover{
+  transform: scale(1.2);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#tr-recados:hover {
+  background-color: #dfa576;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer ;
+}
+
+a{
+  color:rgb(18, 179, 39) ;
+  font-size: 13px;
+}
+
+
+
+

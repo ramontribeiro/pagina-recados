@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/recados.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Página Recados</title>
+  </head>
+
+  <body>
+    <h1>Meus Recados</h1>
+
+    <form class="form-recados">
+      <input
+        type="text"
+        name="descricao"
+        class="input-note"
+        id="input-descricao"
+        placeholder="Descrição"
+      />
+
+      <input
+        type="text"
+        name="detalhametno"
+        class="input-note"
+        id="input-detalhamento"
+        placeholder="Detalhamento"
+      />
+
+      <input type="button" value="Salvar" class="btn-salvar" id="btn-post" />
+    </form>
+
+    <div>
+      <table class="tabela-recados" id="note-table">
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Detalhamento</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- <tr id="tr-recados">
+            <td>Titulo Exemplo</td>
+            <td>Descrição Exemplo</td>
+            <td>
+              <button class="btn-editar">Editar</button>
+              <button class="btn-apagar">Apagar</button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+    <!-- <a href="./index.html">Home</a> -->
+    <script src="./JS/recados.js"></script>
+  </body>
+</html>
